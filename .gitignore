@@ -12,6 +12,8 @@
 /.next/
 /out/
 
+env.json
+
 # production
 /build
 
