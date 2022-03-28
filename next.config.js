@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
-const fileEnv = require('./env.json') || {};
+
+let fileEnv = {};
+
+// Development
+if (false) {
+    fileEnv = require('./env.json')
+}
 
 const nextConfig = {
     reactStrictMode: true,
