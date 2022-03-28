@@ -36,13 +36,13 @@
 
 
 import { Box, createStyles } from '@mantine/core'
-import { NavbarMinimal } from './components/navigationBar'
-import { FooterSimple } from './components/Footer'
+import { NavbarMinimal } from '../components/navigationBar'
+import { FooterSimple } from '../components/Footer'
 import { useViewportSize } from '@mantine/hooks';
 import { useState } from 'react';
-import { Body } from './pageComponents/body'
+import { Body } from '../pageComponents/body'
 import { BrandTelegram } from 'tabler-icons-react';
-import { Dashboard } from './pageComponents/dashboard';
+import { Dashboard } from '../pageComponents/dashboard';
 
 const useStyles = createStyles((theme) => ({
     main: {

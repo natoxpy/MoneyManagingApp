@@ -13,7 +13,7 @@ import {
     Logout,
     SwitchHorizontal,
 } from 'tabler-icons-react';
-import logo from '../../public/logo/CashManaging-logos_white.png';
+import logo from '../public/logo/CashManaging-logos_white.png';
 import Image from 'next/image';
 import { useMediaQuery, useOs, useViewportSize } from '@mantine/hooks';
 import { collectAssets } from 'next/dist/build/webpack/plugins/middleware-plugin';

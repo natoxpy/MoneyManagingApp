@@ -2,7 +2,7 @@ import React from 'react';
 import { createStyles, Header, Menu, Group, Center, Burger, Container } from '@mantine/core';
 import { useBooleanToggle } from '@mantine/hooks';
 import { ChevronDown } from 'tabler-icons-react';
-import logo from '../../public/logo/CashManaging-logos_white.png';
+import logo from '../public/logo/CashManaging-logos_white.png';
 import Image from 'next/image';
 
 const useStyles = createStyles((theme) => ({

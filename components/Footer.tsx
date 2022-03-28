@@ -1,6 +1,6 @@
 import React from 'react';
 import { createStyles, Container, Group, Anchor } from '@mantine/core';
-import logo from '../../public/logo/CashManaging-logos_white.png';
+import logo from '../public/logo/CashManaging-logos_white.png';
 import Image from 'next/image';
 
 const useStyles = createStyles((theme) => ({
