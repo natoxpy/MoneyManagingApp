@@ -16,7 +16,7 @@ async function handler(
     if (!user) { return res.status(404).json({ 'message': 'not found' }); }
 
     if (req.method === 'GET') {
-        let funds = await Funds.find({ '_id': user._id });
+        let funds = await Funds.find({ 'id': user._id });
         return res.status(200).json({ 'funds': funds });
     } else if (req.method === 'POST') {
         const { amount, description } = req.body;
@@ -25,7 +25,7 @@ async function handler(
             'amount': amount,
             'description': description,
             'date': new Date(),
-            '_id': user._id
+            'id': user._id
         });
 
         expense.save()
